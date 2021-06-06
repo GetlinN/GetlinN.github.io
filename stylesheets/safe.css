@@ -1,0 +1,45 @@
+li {
+  display: inline;
+  float: left; /*use float to get block elements to slide next to each other*/
+}
+
+li a {
+  display: block; /*Allows us to specify padding (and height, width, margins, etc. if you want)*/
+  padding: 8px; /*Since block elements take up the full width available, they cannot float next to each other. Therefore, specify some padding to make them look good*/
+  /* background-color: black; */
+  font-size: 1.5rem;
+  height: 5rem;
+  color: white;
+}
+
+
+a {
+  display: block;
+  padding: 8px;
+  /* background-color: #dddddd; */
+  
+}
+
+
+
+
+.btn-grad {background-image: linear-gradient(to right, #e52d27 0%, #b31217  51%, #e52d27  100%)}
+
+.btn-grad {
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;            
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+}
+
+.btn-grad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
